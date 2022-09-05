@@ -1,0 +1,20 @@
+{
+  "name": "player-css-v2",
+  "version": "1.0.0",
+  "description": "ccc-carousel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kaveh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaveh1985/css-player-carousel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaveh1985/css-player-carousel/issues"
+  },
+  "homepage": "https://github.com/kaveh1985/css-player-carousel#readme"
+}
