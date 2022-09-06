@@ -5,6 +5,11 @@ body {
 }
 
 
+.full-screen-container .container {
+    top: 50px;
+}
+
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -12,19 +17,30 @@ body {
 }
 
 
+
+.navbar #fiveG {
+    font-size: large;
+}
+
+
+.navbar #battery {
+    font-size:large;
+}
+
+
 .navbar-bottom {
     position: fixed;
     bottom: 0;
-    width: 100%;
-    
+    width: 100%; 
 }
+
 
 
 .navbar-bottom ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    background-color: rgba(129, 130, 134, 0.3);
+    background-color: rgba(29, 27, 27, 0.5);
     margin: 0;
     margin-top: 35px;
     padding: 15px;
@@ -32,26 +48,33 @@ body {
 }
 
 
+.navbar-bottom ul .home {
+    padding-right: 48px;
+}
+
+
+.navbar-bottom ul .search {
+    padding-right: 25px;;
+}
+
+
 .navbar ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    background-color: rgba(129, 130, 134, 0.3);
+    background-color: rgba(4, 4, 5, 0.3);
     margin: 0;
     padding: 15px;
 }
 
 
-#battery {
+.navbar #battery {
     padding-left: 15px;
 }
 
-.container {
-    top: 50px;
-}
 
 
-#time {
+.navbar #time {
     background-color: rgb(60, 175, 60);
     margin-right: 20vh;
     padding-left: 15px;
@@ -60,6 +83,58 @@ body {
     padding-right: 15px;
     border-radius: 14px;
 }
+
+
+.media-player {
+   position: relative;
+   display: flex;
+   left: 12px;
+   
+}
+
+.media-player .lecture {
+    position: fixed;
+    bottom: 90px;
+    padding-bottom: 30px;
+    background-color: rgb(79, 75, 87);
+    width: 95%;
+    height: 70px;
+    border-radius: 5px;
+}
+
+
+.lecture .ul-bottom {
+    padding-top: 7px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.lecture .ul-bottom .li-bottom {
+    float: left;
+   
+}
+
+.lecture #player {
+    
+    padding-left: 200px;
+}
+
+.lecture #camera {
+    padding-left: 25px;
+}
+
+
+.lecture ul li img {
+    padding-top: 5px;;
+    border-radius: 5px !important;
+    width: 50px;
+    height: 45px;
+    padding-left: 7px;
+    padding-right: 5px;
+}
+
 
 /* the vw (view-width) and vh (view-height) units are relational to the view-port size,
  where 100vw or vh is 100% of the view-port's width/height */
